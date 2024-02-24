@@ -1,0 +1,12 @@
+.content {
+ height: 85dvh;
+ text-align: center;
+ padding: 1rem 2rem;
+ line-height: 2rem;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ transition: all 0.2s;
+}
+.content:hover {
+ color: var(--color-primary-400);
+ transform: scaleY(1.05);
+}
